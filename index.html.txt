@@ -1,6 +1,64 @@
-<link rel="stylesheet" href="styles/main.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courser Compendium</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
 
-<script src="scripts/main.js"></script>
-<script src="scripts/genotype.js"></script>
-<script src="scripts/phenotype.js"></script>
-<script src="scripts/foal.js"></script>
+<body>
+
+  <!-- Header -->
+  <header class="cc-header">
+    <h1>Courser Compendium</h1>
+    <p>Your Dungeon Courser Genetics & Breeding Codex</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="cc-nav">
+    <ul>
+      <li><a href="#">Genotype → Phenotype</a></li>
+      <li><a href="#">Foal Generator</a></li>
+      <li><a href="#">Trait Index</a></li>
+      <li><a href="#">Variant Codex</a></li>
+      <li><a href="#">Temperaments</a></li>
+      <li><a href="#">Rarity Guide</a></li>
+      <li><a href="#">Tools</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="cc-main">
+
+    <section class="intro">
+      <h2>Welcome to the Compendium</h2>
+      <p>Explore tools, guides, and resources for Dungeon Courser genetics.</p>
+    </section>
+
+    <!-- Tool Grid -->
+    <section class="tool-grid">
+      <div class="tool-card">Genotype → Phenotype</div>
+      <div class="tool-card">Foal Generator</div>
+      <div class="tool-card">Trait Index</div>
+      <div class="tool-card">Variant Codex</div>
+      <div class="tool-card">Temperaments</div>
+      <div class="tool-card">Rarity Guide</div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="cc-footer">
+    <p>Courser Compendium © 2026</p>
+    <p>Created by sweeeeeetheart</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+  <script src="scripts/genotype.js"></script>
+  <script src="scripts/phenotype.js"></script>
+  <script src="scripts/foal.js"></script>
+
+</body>
+</html>
