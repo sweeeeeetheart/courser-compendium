@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dungeon Courser Codex</title>
+  <title>Courser Compendium</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Dungeon Courser Codex</h1>
 
-  <p>Welcome to the beginning of your site!</p>
+<body>
+
+  <header class="cc-header">
+    <h1>Courser Compendium</h1>
+    <p>A Dungeon Courser Genetics & Breeding Codex</p>
+  </header>
+
+  <nav class="cc-nav">
+    <a href="#">Genotype → Phenotype</a>
+    <a href="#">Foal Generator</a>
+    <a href="#">Trait Index</a>
+    <a href="#">Variant Codex</a>
+    <a href="#">Temperaments</a>
+    <a href="#">Rarity Guide</a>
+    <a href="#">Tools</a>
+    <a href="#">About</a>
+  </nav>
+
+  <main class="cc-main">
+    <section class="intro">
+      <h2>Welcome to the Compendium</h2>
+      <p>Your complete reference for Dungeon Courser genetics, traits, variants, and breeding tools.</p>
+    </section>
+
+    <section class="tool-grid">
+      <div class="tool-card">Genotype → Phenotype</div>
+      <div class="tool-card">Foal Generator</div>
+      <div class="tool-card">Trait Index</div>
+      <div class="tool-card">Variant Codex</div>
+      <div class="tool-card">Temperaments</div>
+      <div class="tool-card">Rarity Guide</div>
+    </section>
+  </main>
+
+  <footer class="cc-footer">
+    <p>Courser Compendium © 2026</p>
+    <p>Created by sweeeeeetheart</p>
+  </footer>
 
   <script src="logic.js"></script>
 </body>
