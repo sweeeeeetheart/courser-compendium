@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dungeon Courser Codex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dungeon Courser Codex</h1>
+
+  <p>Welcome to the beginning of your site!</p>
+
+  <script src="logic.js"></script>
+</body>
+</html>
