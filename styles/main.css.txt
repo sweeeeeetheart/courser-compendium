@@ -1,0 +1,98 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  background-color: #f5f2e9; /* parchment base */
+  color: #2a1f14;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+.cc-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cc-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.cc-header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* ===== Navigation ===== */
+.cc-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.cc-nav a {
+  text-decoration: none;
+  color: #4a2f1f;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.cc-nav a:hover {
+  background-color: #e2d7c3;
+}
+
+/* ===== Main Content ===== */
+.cc-main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* ===== Tool Grid ===== */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.tool-card {
+  background-color: #fffdf7;
+  border: 2px solid #d4c7b5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.tool-card:hover {
+  background-color: #f0e7d8;
+  transform: translateY(-3px);
+}
+
+/* ===== Footer ===== */
+.cc-footer {
+  text-align: center;
+  margin-top: 60px;
+  opacity: 0.7;
+}
