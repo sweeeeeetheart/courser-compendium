@@ -5,12 +5,19 @@
   box-sizing: border-box;
 }
 
+/* ===== Page Base ===== */
 body {
-  font-family: serif;
-  background-color: #f5f2e9; /* parchment base */
+  font-family: "Georgia", serif;
+  background-color: #f7f4ef; /* Bloodline-like parchment */
   color: #2a1f14;
   line-height: 1.6;
-  padding: 20px;
+  padding: 40px 20px;
+}
+
+/* ===== Centered Page Width ===== */
+.cc-main {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* ===== Header ===== */
@@ -21,6 +28,7 @@ body {
 
 .cc-header h1 {
   font-size: 3rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -33,7 +41,8 @@ body {
 .cc-nav ul {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
   list-style: none;
   margin-bottom: 40px;
 }
@@ -42,21 +51,16 @@ body {
   text-decoration: none;
   color: #4a2f1f;
   font-weight: bold;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 6px;
   transition: background 0.2s;
 }
 
 .cc-nav a:hover {
-  background-color: #e2d7c3;
+  background-color: #e8dfd2;
 }
 
-/* ===== Main Content ===== */
-.cc-main {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
+/* ===== Intro Section ===== */
 .intro {
   text-align: center;
   margin-bottom: 40px;
@@ -70,7 +74,7 @@ body {
 /* ===== Tool Grid ===== */
 .tool-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
 
