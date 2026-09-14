@@ -1,0 +1,13 @@
+{
+  "name": "Bloodline — Dungeon Coursers Breeding Calculator",
+  "short_name": "Bloodline",
+  "description": "An unofficial client-side genetics calculator for the Dungeon Coursers HARPG: foal predictions, Chimera analysis, scroll rolls, and collection search.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#2f3a2c",
+  "theme_color": "#5d4b60",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
